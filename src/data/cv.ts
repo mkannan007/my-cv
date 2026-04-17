@@ -36,6 +36,7 @@ export const person = {
   email: 'mkannan007@outlook.com',
   website: 'https://mkannan007.dev/',
   linkedin: 'https://linkedin.com/in/mkannan007',
+  github: 'https://github.com/mkannan007',
 } as const;
 
 // Verbatim header block from the CV
