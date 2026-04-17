@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env.local
+.DS_Store
+*.log
+playwright-report/
+test-results/
+cv_raw.txt
+cv_raw2.txt
+cv_rest.txt

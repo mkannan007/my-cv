@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #dae7ff;
+  --color-brand-500: #4f7cff;
+  --color-brand-600: #3b63e6;
+  --color-brand-700: #2f4fbf;
+  --color-brand-900: #1a2a66;
+
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-soft: 0 10px 30px -12px rgba(31, 41, 55, 0.15);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+a {
+  @apply transition-colors;
+}
+
+*:focus-visible {
+  @apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-white rounded;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/60 shadow-soft;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-soft border border-slate-100;
+}
+
+.gradient-hero {
+  background: radial-gradient(1200px 500px at 10% -10%, #dae7ff 0%, transparent 60%),
+    radial-gradient(900px 400px at 90% 0%, #e9e4ff 0%, transparent 60%),
+    linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+@media print {
+  header,
+  footer,
+  nav,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+  main {
+    padding: 0 !important;
+  }
+}
