@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
-// Set REPO_NAME env var when hosting under https://<user>.github.io/<repo>/
 const repoName = process.env.REPO_NAME || '';
 
 module.exports = {
+  output: 'export',
   reactStrictMode: true,
   trailingSlash: true,
   images: { unoptimized: true },
