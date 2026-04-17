@@ -70,7 +70,7 @@ file to update the entire site.
 
 ## Resume PDF
 
-`public/resume.pdf` is a placeholder. **Replace it with your real CV PDF**
+`public/kannan_cv.pdf` is a placeholder. **Replace it with your real CV PDF**
 before deploying — it is served directly from the download button on
 `/contact` and `/resume`.
 
@@ -108,7 +108,7 @@ npx gh-pages -d out -b gh-pages
 
 ```
 public/assets/tech/        vendor logos (placeholder SVGs)
-public/resume.pdf          downloadable CV (replace!)
+public/kannan_cv.pdf          downloadable CV (replace!)
 src/components/            Header, Footer, Hero, Timeline, SkillGrid, Icon, Seo
 src/pages/                 index, about, skills, experience, projects,
                            test-automation, contact, resume

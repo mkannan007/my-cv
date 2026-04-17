@@ -35,7 +35,7 @@ export default function ContactPage() {
             </div>
           </dl>
           <a
-            href={`${basePath}/resume.pdf`}
+            href={`${basePath}/kannan_cv.pdf`}
             className="mt-6 inline-block px-5 py-2.5 rounded-full bg-brand-500 text-white font-medium hover:bg-brand-600"
             download
           >

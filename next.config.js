@@ -8,4 +8,7 @@ module.exports = {
   images: { unoptimized: true },
   assetPrefix: repoName ? `/${repoName}/` : '',
   basePath: repoName ? `/${repoName}` : '',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: repoName ? `/${repoName}` : '',
+  },
 };

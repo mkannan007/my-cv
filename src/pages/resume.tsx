@@ -31,7 +31,7 @@ export default function ResumePage() {
           Print / Save as PDF
         </button>
         <a
-          href={`${basePath}/resume.pdf`}
+          href={`${basePath}/kannan_cv.pdf`}
           className="px-5 py-2.5 rounded-full bg-white border border-slate-200 text-slate-800 font-medium hover:bg-brand-50"
           download
         >
